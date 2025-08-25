@@ -22,7 +22,6 @@ jobs:
       - name: Set up Cloud SDK
         uses: google-github-actions/setup-gcloud@v3
         with:
-          version: '>= 363.0.0'
           service_account_key: ${{ secrets.GCP_CREDENTIALS }}
           project_id: notely-470114
 
